@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="google">
+              <img src="google.svg" alt="" width="200px" height="72px" class="goog">
+              <h1>Create Your Google  Account</h1>
+            <form class="signup-form" id="signup-form">
+                <inputut type="text" name="" id="input1" placeholder= "First name">  
+                <inputut type="text" name="" id="input2"  placeholder="Last name"><br><br>
+                <inputut type="text" name="" id="input3" placeholder="Username">
+                <span>@gmail.com</span>
+                <p>You can use letters,numbers and periods.</p>
+                <p class="p2">Use my current email adress instead.</p>
+                <div class="pass">
+                <inputut type="password" name="" id="input4" placeholder="Password"> 
+                <inputut type="password" name="" id="input5" placeholder="Confirm"> 
+                <div id="password-message"></div>
+                <div id="confirm-password-message"></div>
+            </div>
+                <p>Use 8 characters with a mix of letters,numbers and <br> symbols.</p>
+                <div class="checkbox-group">
+                    <inputut type="checkbox" id="show-password">
+                    <label for="show-password" id="shows">  Show password</label>
+                </div>
+                <div class="bottom"><p class="p2">Sign in instead</p> <button class="btn1">Next</button></div>
+            </form>
+            </div>
+        </div>
+        <div class="right">
+            <img src="logo1.svg" alt="" width="400px">
+            <p>One Account.All of Google working for you.</p>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

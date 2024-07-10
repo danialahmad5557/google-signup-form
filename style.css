@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0px;
+}
+.main{
+    display: flex;
+}
+#input1{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;  
+}
+span {
+    position: absolute;
+    top: 48%;
+        transform: translateY(-50%);
+    color: #999;
+    margin-left: -130px;
+    font-size: 20px;
+}
+#input2{
+    padding: 10px;
+    width: 200px;
+    margin-top: 50px;
+    font-size: 20px;  
+
+}
+.google{
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+#input3{
+    padding: 10px;
+    width: 430px; 
+    margin-top: 10px;
+    font-size: 20px;  
+}
+p{
+    font-size: 20px;
+}
+.p2{
+    color: blue;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#input4{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;  
+}
+#input5{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;  
+}
+.pass{
+    display: inline;
+}
+#input6{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+    right: 5px;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+.bottom{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 220px;
+}
+.left{
+    width: 50%;
+    margin-left: 70px;
+}
+.right{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+#password-message,
+#confirm-password-message {
+    color: red;
+    font-size: 12px;
+}
+#show-password{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+#shows{
+    margin-top: 20px;
+    font-size: 20px;
+}
